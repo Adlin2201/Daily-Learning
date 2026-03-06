@@ -2,22 +2,44 @@
 <html>
 <head>
     <title>Daily Task - 1</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        .navbar ul{
+            list-style-type: none;
+            background-color:cadetblue;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        .navbar a{
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color: rgb(90, 87, 87);
+        }
+        .navbar li{
+            float: left;
+        }
+    </style>
 </head>
 <body>
-    <h2>Navigation Links</h2>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    <h1>ADLIN SAKINI</h1>
+    <center><h1>ADLIN SAKINI</h1></center>
     <br>
-    <p>My name is Adlin Sakini. I am a student at Thiagarajar College of Engineering. I am currently in my second year of study. I have a strong passion for technology and programming</p>
+    <p style="border-style: double">My name is Adlin Sakini. I am a student at Thiagarajar College of Engineering. I am currently in my second year of study. I have a strong passion for technology and programming</p>
     </p>
     <br>
     <h2>Programming Skills</h2>
-    <ol>
+    <ol id="box1">
         <li>Python</li>
         <li>C language</li>
         <li>Java</li>
@@ -25,7 +47,7 @@
     </ol>
     <br>
     <h2>Area of Interest</h2>
-    <ul>
+    <ul id="box2">
         <li>Full Stack Development</li>
         <li>DSA</li>
         <li>Networks</li>

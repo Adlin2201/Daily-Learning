@@ -1,1 +1,28 @@
-
+body{
+    background-color: pink;
+    /*background-image: url("../HTML/Images/isik_vessel_2021_press_image-810x485.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px;
+}
+#box1{
+    width: 200px;
+    height: 100px;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 5px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#box2{
+    width: 200px;
+    height: 60px;
+    background-color: aquamarine;
+    box-shadow: 3px 3px 5px;
+    margin-top: 0px;
+    margin-left: 50px;
+}
