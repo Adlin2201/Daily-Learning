@@ -45,3 +45,31 @@ button:hover{
     gap: 30px;
     flex-wrap: wrap;
 }
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+form input:focus {
+    border-color: royalblue;
+    outline: none;
+}
+form button {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
